@@ -12,7 +12,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
           Hi There 👋, My name is <span className="purple">Harel Sigron </span>and i'm from <span className="purple">Israel</span>.
             <br />
-            I'm a professional full stack programmer.
+            I'm a professional full stack programmer (4.5 years of <span className="purple">experience</span>).
             <br />
             Currently operating as a CEO for <a className="purple" href="https://air-hosting.xyz" style={{fontWeight: 600, textDecoration: "none"}}>AirHosting</a>.
             <br />
