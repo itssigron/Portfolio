@@ -10,11 +10,19 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-          Hi There 👋, My name is <span className="purple">Harel Sigron </span>and i'm from <span className="purple">Israel</span>.
+            Hi There 👋, My name is <span className="purple">Harel Sigron </span>and i'm from <span className="purple">Israel</span>.
             <br />
-            I'm a professional full stack programmer (4.5 years of <span className="purple">experience</span>).
+            I'm a professional developer (<span style={{fontSize: "22px"}} className="purple">4.5</span> years of <span className="purple">experience</span> in total).
+            <br /><br />
+            <span className="purple">Backend Development:</span><br />
+            Node.js - <span style={{fontSize: "22px"}} className="purple">4.5</span> years<br />
             <br />
-            Currently operating as a CEO for <a className="purple" href="https://air-hosting.xyz" style={{fontWeight: 600, textDecoration: "none"}}>AirHosting</a>.
+            <span className="purple">Frontend Development:</span><br />
+            Pure JavaScript - <span style={{fontSize: "22px"}} className="purple">2</span> years<br />
+            HTML - <span style={{fontSize: "22px"}} className="purple">2</span>  years<br />
+            CSS - <span style={{fontSize: "22px"}} className="purple">2</span>  years<br />
+            <br />
+            Currently operating as a CEO for <a className="purple" href="https://air-hosting.xyz" style={{ fontWeight: 600, textDecoration: "none" }}>AirHosting</a>.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -22,13 +30,13 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight style={{marginRight: "4px"}} />  Play Games <CgGames />
+              <ImPointRight style={{ marginRight: "4px" }} />  Play Games <CgGames />
             </li>
             <li className="about-activity">
-              <ImPointRight style={{marginRight: "2px"}} /> Listen To Music <SiSpotify />
+              <ImPointRight style={{ marginRight: "2px" }} /> Listen To Music <SiSpotify />
             </li>
             <li className="about-activity">
-              <ImPointRight style={{marginRight: "4px"}} /> Watch Netflix <SiNetflix />
+              <ImPointRight style={{ marginRight: "4px" }} /> Watch Netflix <SiNetflix />
             </li>
           </ul>
 

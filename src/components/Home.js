@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Particle from "./Particle";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../Assets/about.png";
 import Socials from "./Socials";
@@ -10,7 +9,6 @@ import Skillset from "./Skillset";
 function Home() {
   return (
     <Container fluid className="about-section">
-      <Particle />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
@@ -21,8 +19,8 @@ function Home() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-            Introducement
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px", fontWeight: "bold", color: "darkorchid" }}>
+            About Me
             </h1>
             <Aboutcard />
           </Col>
