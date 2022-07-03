@@ -13,6 +13,9 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./components/Home";
+import reportWebVitals from './reportWebVitals'
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-233472729-1');
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -24,6 +27,22 @@ function App() {
 
     return () => clearTimeout(timer);
   }, []);
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  
+    reportWebVitals(({ id, name, value }) =>
+      ReactGA.event({
+        action: name,
+        category: 'Web Vitals',
+        label: id,
+        nonInteraction: true,
+        value: Math.round(
+          name === 'CLS' ? value * 1000 : value
+        ),
+      })
+    );
+  }, [window.location.pathname]);
 
   return (
     <Router>

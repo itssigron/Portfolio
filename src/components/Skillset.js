@@ -44,7 +44,7 @@ const techstack = [
     { icon: DiPython, tooltip: "Python" },
     { icon: SiFlask, tooltip: "Flask" },
     { icon: SiC, tooltip: "C" },
-    { icon: SiCsharp, tooltip: '"C#"' },
+    { icon: SiCsharp, tooltip: "C#" },
     { icon: SiGnubash, tooltip: "Bash" },
     { icon: DiGit, tooltip: "Git" },
     { icon: DiGithubBadge, tooltip: "Github" },
