@@ -19,19 +19,7 @@ function Resume() {
 
   return (
     <div>
-      <Container fluid className="resume-section">
-        <Row style={{ justifyContent: "center", position: "relative", marginTop: "70px", marginBottom: "30px" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download Resume
-          </Button>
-        </Row>
-
+      <Container fluid className="resume-section" style={{marginTop: "90px"}}>
         <Row className="resume">
           <Document file={resumeLink} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
