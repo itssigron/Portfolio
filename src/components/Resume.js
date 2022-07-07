@@ -8,7 +8,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "todo";
+  "https://raw.githubusercontent.com/itssigron/portfolio/master/src/Assets/resume.pdf";
 
 function Resume() {
   const [width, setWidth] = useState(1200);
@@ -20,7 +20,7 @@ function Resume() {
   return (
     <div>
       <Container fluid className="resume-section">
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        <Row style={{ justifyContent: "center", position: "relative", marginTop: "70px", marginBottom: "30px" }}>
           <Button
             variant="primary"
             href={pdf}
@@ -28,7 +28,7 @@ function Resume() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Download Resume
           </Button>
         </Row>
 
@@ -38,7 +38,7 @@ function Resume() {
           </Document>
         </Row>
 
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        <Row style={{ justifyContent: "center", position: "relative", marginTop: "40px", marginBottom: "30px" }}>
           <Button
             variant="primary"
             href={pdf}
@@ -46,7 +46,7 @@ function Resume() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Download Resume
           </Button>
         </Row>
       </Container>
