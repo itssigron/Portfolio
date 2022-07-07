@@ -15,6 +15,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./components/Home";
 import reportWebVitals from './reportWebVitals'
 import ReactGA from 'react-ga';
+import Resume from "./components/Resume";
+
 ReactGA.initialize('UA-233472729-1');
 
 function App() {
@@ -52,6 +54,7 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

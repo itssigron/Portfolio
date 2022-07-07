@@ -29,7 +29,7 @@ function Home() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img src={laptopImg} alt="about" height="auto" width="100%" />
           </Col>
         </Row>
         <Skillset />
