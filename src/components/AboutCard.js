@@ -22,7 +22,7 @@ function AboutCard() {
             HTML - <span style={{fontSize: "22px"}} className="purple">2</span>  years<br />
             CSS - <span style={{fontSize: "22px"}} className="purple">2</span>  years<br />
             <br />
-            Currently operating as a CEO for <a className="purple" href="https://fly2host.net" style={{ fontWeight: 600, textDecoration: "none" }}>Fly2Host</a>.
+            Currently not doing any projects.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
